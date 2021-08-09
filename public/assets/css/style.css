@@ -78,12 +78,21 @@ body{
   font-family: 'Lora', serif;
   font-size: 1em;
   line-height: 1.875;
-  color: #9a9a9a;
-  background-color: #1f1f1f;
-  overflow-x:hidden;
+  color: #b6b2b2;
+   background-color: rgb(20, 20, 20);
+   overflow-x:hidden;
   position: relative;
  
 }
+ .bgimg {
+  background: url(../img/icon/imag.jpg);
+	height:max-content;
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+} 
 
 ::-webkit-scrollbar{
   width: 8px;
@@ -577,7 +586,7 @@ i.icon{
 
 .lead-hr{
   display: inline-block;
-  width: 48px;
+  width: 80px;
   height: 4px;
   background-color: #6534ff;
   margin:2.2em 0;
@@ -1116,6 +1125,9 @@ i.icon{
   min-height: 420px;
   color: #fff;
   background-color: #222222;
+  
+  
+
 }
 
 .main h1{
@@ -1168,6 +1180,7 @@ i.icon{
 .rev_slider{
   color: #fff;
   min-height: 320px;
+  opacity: none;
 }
 
 .rev_slider .btn{
@@ -1767,10 +1780,16 @@ img.mfp-img{
 .col-news{
   padding:0 2em 2em 2em;
 }
+.col-news-1{
+  padding:0 2em 2em 2em;
+}
 
 
 .col-news img{
   width: 100%;
+}
+.col-news-1 img{
+  width: 86%;
 }
 
 .col-news-wrapper{
